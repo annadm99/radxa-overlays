@@ -1,0 +1,22 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+	metadata {
+    	title = "Enable PCF RTC on I2C2";
+    	compatible = "unknown";
+    	category = "misc";
+    	description = "Enable PCF RTC on I2C2.";
+	};
+};
+
+&i2c2 {
+	status = "okay";
+	#address-cells = <1>;
+	#size-cells = <0>;
+
+	pcf85063: pcf85063@51 {
+    	compatible = "nxp,pcf85063";
+    	reg = <0x51>;
+	};
+};
