@@ -156,7 +156,6 @@ dtb-$(CONFIG_CLK_RK3568) += \
 	radxa-cm3-io-camera-v2-imx219-cam2.dtbo \
 	radxa-cm3-io-dual-cameras-gc2053-gc2093.dtbo \
 	radxa-cm3-io-dual-cameras-gc2053.dtbo \
-	radxa-cm3-io-i2c0-hym8563.dtbo \
 	radxa-cm3-io-okdo-5mp-camera-cam1.dtbo \
 	radxa-cm3-io-okdo-5mp-camera-cam2.dtbo \
 	radxa-cm3-io-pcie2x1.dtbo \
@@ -241,7 +240,7 @@ dtb-$(CONFIG_CLK_RK3568) += \
 	rk3568-spi1-m1-cs0-spidev.dtbo \
 	rk3568-spi2-m1-cs0-spidev.dtbo \
 	rk3568-spi3-m0-cs0-mcp2515.dtbo \
-	rk3568-spi3-m0-cs0-spidev.dtbo \
+	rk3568-spi3-m0-cs0-cs1-spidev.dtbo \
 	rk3568-spi3-m0-cs0-waveshare35.dtbo \
 	rk3568-spi3-m0-cs1-spidev.dtbo \
 	rk3568-spi3-m1-cs0-enc28j60.dtbo \
